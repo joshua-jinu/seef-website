@@ -1,5 +1,25 @@
+/* 
+the 4 colors are :-
+#16423C
+#6A9C89
+#C4DAD2
+#E9EFEC
+
+
+The fonts i felt would best suit SEEF and the color theme above are :-
+Poppins - Subheadings and Title Text
+Rubik - Body and Title Text
+Palatino - Typography and Design Text
+Roboto - Large bodies of small text
+*/
+
+/* Navbar styles */
 .nav-link {
     padding: 0.5rem 1rem;
+    color: #16423C;
+}
+.nav-link:hover {
+    color: white;
 }
 
 nav {
@@ -8,12 +28,42 @@ nav {
     max-width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     top: 0;
-    padding: 0 20px;
+    padding: 0 1.5rem;
     box-sizing: border-box;
+    background-color: #6A9C89;
+    color: #C4DAD2;
+    font-size: 1.1rem;
+    height: 5rem;
 }
 
+.active {
+    color: white;
+    /* font-weight: 700; */
+}
+
+/* Footer Styles */
 footer {
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 1.5rem;
+    background-color: #6A9C89;
+}
+
+.footer-link {
+    padding: 0.5rem 1rem;
+    color: #16423C;
+}
+.footer-link:hover {
+    color: white;
+}
+
+/* content styles */
+.content {
+    height: 80vh;
     max-width: 100%;
 }
