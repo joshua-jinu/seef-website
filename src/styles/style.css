@@ -36,12 +36,16 @@ nav {
     background-color: #6A9C89;
     color: #C4DAD2;
     font-size: 1.1rem;
-    height: 5rem;
+    height: 7rem;
 }
 
 .active {
     color: white;
     /* font-weight: 700; */
+}
+
+.logo > img{
+    width: 5rem;
 }
 
 /* Footer Styles */
@@ -61,6 +65,27 @@ footer {
 .footer-link:hover {
     color: white;
 }
+
+.footer-section {
+    padding: 1rem;
+}
+
+.rights > h4 {
+    font-weight: 400;
+}
+
+.newsletter-join {
+    font-weight: 400;
+    color: #16423C;
+}
+
+.newsletter-join > a {
+    color: #16423C;
+}
+.newsletter-join > a:hover {
+    color: white;
+}
+
 
 /* content styles */
 .content {

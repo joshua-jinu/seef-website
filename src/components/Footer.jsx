@@ -1,11 +1,15 @@
 import React from 'react'
 import {NavLink } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 
 function Footer() {
   return (
     <footer>
-        <div className='links'>
+        <div className='logo footer-section'>
+            <img src={logo} alt="Logo" />
+        </div>
+        <div className='links footer-section'>
             <NavLink className="footer-link" to="/">Home</NavLink>
             <NavLink className="footer-link" to="/about">About</NavLink>
             <NavLink className="footer-link" to="/projects">Projects</NavLink>
@@ -13,6 +17,18 @@ function Footer() {
             <NavLink className="footer-link" to="/updates">Updates</NavLink>
             <NavLink className="footer-link" to="/collaborations">Collaborations</NavLink>
             <NavLink className="footer-link" to="/contact">Contact</NavLink>
+        </div>
+        <div className='newsletter-join footer-section'>
+          <a href="">
+            <span>
+            Stay Updated on All Our Activities, Click Here Join Our Newsletter Now!
+            </span>
+          </a>
+        </div>
+        <div className='rights footer-section'>
+          <h4>
+          ©2024 SEEF | SJBHS OBA | All Rights Reserved
+          </h4>
         </div>
     </footer>
   )
