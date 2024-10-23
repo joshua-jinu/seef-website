@@ -27,7 +27,11 @@ function Footer() {
         </div>
         <div className='rights footer-section'>
           <h4>
-          ©2024 SEEF | SJBHS OBA | All Rights Reserved
+          ©2024 SEEF | 
+          <a href="https://sjbhsoba.net/" style={{color:"white", textDecoration:"none"}}>
+          SJBHS OBA
+          </a>
+           | All Rights Reserved
           </h4>
         </div>
     </footer>
