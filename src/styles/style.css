@@ -13,6 +13,11 @@ Palatino - Typography and Design Text
 Roboto - Large bodies of small text
 */
 
+
+*{
+    font-family: 'Poppins';
+}
+
 /* Navbar styles */
 .nav-link {
     padding: 0.5rem 1rem;
