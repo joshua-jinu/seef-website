@@ -11,4 +11,12 @@
 .home-subhead {
     font-size: 2rem;
     font-weight: 900;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #16423C;;
+    color: #16423C;;
+}
+
+#read-more {
+    background-color: #16423C;
 }
