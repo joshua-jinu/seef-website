@@ -16,6 +16,9 @@ Roboto - Large bodies of small text
 
 *{
     font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Navbar styles */
@@ -94,6 +97,6 @@ footer {
 
 /* content styles */
 .content {
-    height: 80vh;
+    min-height: 80vh;
     max-width: 100%;
 }
