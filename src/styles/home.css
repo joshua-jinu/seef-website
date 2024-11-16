@@ -35,14 +35,15 @@
 }
 
 .overlay-text>h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-shadow: 2px 1px 0px #3a3a3a;
 }
 .overlay-text>h1{
+    font-size: 2.6rem;
     text-shadow: 3px 3px 0px #3a3a3a;
 }
-@media(max-width:900px) {
+@media(max-width:600px) {
     .overlay-text {
         padding-left: 2rem;
         padding-top: 5rem;
@@ -62,19 +63,30 @@
 
 /* about-section */
 .about-components{
-    background-color: #6a9c89;
-    padding: 2rem 1rem;
+    background-image: url('../assets/group.jpg');
+    background-repeat: no-repeat;
 }
+
+.about-overlay {
+    padding: 7rem 3rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(172, 50%, 17%, 0.8);
+}
+
 .about-para {
-    padding: 1rem 3rem;
+    padding: 1rem 5rem;
+    text-align: left;
+    font-size: 1.25rem;
 }
 .home-subhead {
     font-size: 2rem;
     font-weight: 900;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #16423C;;
-    color: #16423C;;
+    text-decoration-color: var(--lighttheme);
+    color: white;;
 }
 
 #read-more {

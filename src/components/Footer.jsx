@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 function Footer() {
   return (
     <footer>
-        <div className='logo footer-section'>
+        <div className='logo footer-section flex justify-center items-center'>
             <img src={logo} alt="Logo" />
         </div>
         <div className='links footer-section'>
