@@ -5,7 +5,6 @@ import Hero from '../components/hero'
 function Home() {
   return (
     <div>
-      Home Page
       <Hero/>
       <HomeAbout/>
     </div>
