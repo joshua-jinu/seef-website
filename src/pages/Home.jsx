@@ -6,7 +6,7 @@ import CTA from '../components/CTA'
 
 function Home() {
   return (
-    <div>
+    <div className=''>
       <Hero/>
       <HomeAbout/>
       <Projects/>

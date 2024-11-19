@@ -91,7 +91,7 @@ function NavBar() {
       }}
       className=' fixed z-[6000] ml-5 mt-5'>
         <Link className='' to={"/"}>
-          <img src={logo} alt="Logo" className='size-[150px] hover:scale-105 duration-500'/>
+          <img src={logo} alt="Logo" className='size-[130px] hover:scale-105 duration-500'/>
         </Link>
       </motion.div>
       <motion.div
