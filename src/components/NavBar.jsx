@@ -4,10 +4,13 @@ import '../styles/style.css'
 import logo from '../assets/logo-bg.png'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 function NavBar() {
   const [visible, setIsVisible] = useState(true); // Navbar visibility
   const [lastScrollY, setLastScrollY] = useState(0); // Track scroll position
+  const location = useLocation(); // Access the current location
+  const currentPath = location.pathname;
   const pages = [
     {
       title: "Home",
@@ -111,9 +114,9 @@ function NavBar() {
       >
         <nav className='justify-end'>
           
-          <div>
+          <div className='flex flex-row lg:gap-10 pr-5 lg:text-lg'>
             {pages.map((page, idx) => (
-              <NavLink className="nav-link" to={`${page.link}`} key={idx}>{page.title}</NavLink>
+              <NavLink className={`${currentPath === page.link ? "text-lightgreen" : "text-darkgreen"} hover:text-lightgreen duration-500 font-semibold`} to={`${page.link}`} key={idx}>{page.title}</NavLink>
             ))}
           </div>
         </nav>
