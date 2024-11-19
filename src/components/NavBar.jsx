@@ -89,7 +89,7 @@ function NavBar() {
         type: "tween",
         duration: 0.5
       }}
-      className=' fixed z-[6000] ml-5 mt-5'>
+      className=' fixed z-[6000] ml-5 mt-4'>
         <Link className='' to={"/"}>
           <img src={logo} alt="Logo" className='size-[130px] hover:scale-105 duration-500'/>
         </Link>
