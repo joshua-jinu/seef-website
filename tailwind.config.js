@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins : "Poppins",
+        rubik : "Rubik",
+        palatino : "Merriweather",
+        roboto : "Roboto",
+      },
       colors:{
         'darkgreen': '#16423c',
         'lightgreen': '#6A9C89',
