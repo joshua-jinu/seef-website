@@ -1,5 +1,5 @@
 import React from 'react'
-import { HoverEffect } from '../components/cardHover'
+import {HoverEffect} from './../components/CardHover'
 
 function Testimonials() {
   return (
@@ -9,16 +9,14 @@ function Testimonials() {
       </div>
       <div className='flex justify-center'>
         <div className='lg:w-3/4  md:w-[80%] w-[90%] '>
-          <HoverEffect items={testimonials}/>
+          <HoverEffect items={testimonialTexts}/>
         </div>
       </div>
     </div>
   )
 }
 
-export default Testimonials
-
-export const testimonials = [
+export const testimonialTexts = [
   {
     "title": "SEEF’s Vision in Action",
     "content": [
@@ -77,3 +75,7 @@ export const testimonials = [
   }
 ]
 
+
+
+
+export default Testimonials
