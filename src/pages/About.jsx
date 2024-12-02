@@ -48,6 +48,9 @@ function About() {
                 menstruation seek to dispel myths, address fears, and introduce eco-friendly menstrual
                 products, helping young girls approach menstruation with dignity and confidence.            
               </p>
+            </div>
+
+            <div className="lg:w-1/2 w-full flex flex-col items-center">
               <p className="text-neutral mb-6 font-Rubik text-lg leading-relaxed">
                 Nutrition-based campaigns focus on educating students about the importance of balanced
                 diets and how adding simple, nutrient-rich foods to their daily meals can significantly
@@ -56,13 +59,10 @@ function About() {
                 hands-on approach, SEEF is not only developing immediate solutions but also cultivating a
                 sense of sustainability, leadership, and resilience in every student involved.            
               </p>            
-            </div>
-
-            <div className="lg:w-1/2 w-full flex flex-col items-center">
+              
               <p className="text-neutral mb-6 font-Rubik text-lg leading-relaxed">
                 SEEF works on a range of sustainability-focused projects at the farm, including:
               </p>
-              
               <ul className="pl-6 text-neutral mb-6 font-Rubik text-lg leading-relaxed">
                 <li>Organic Vegetable Garden</li>
                 <li>Composting</li>
