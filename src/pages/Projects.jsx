@@ -2,8 +2,8 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>
-      Projects
+    <div className='text-black'>
+      Projects YEAAAAAAaaaaa
     </div>
   )
 }
