@@ -1,0 +1,39 @@
+/* about-section */
+.about-components {
+  background-color: var(--darktheme);
+}
+
+@media(min-width: 1024px){
+  .about-components {
+    background-image: url("../assets/group.jpg");
+    background-repeat: no-repeat;
+  }
+  .about-para {
+    padding: 1rem 5rem;
+  }
+}
+
+.about-overlay {
+  padding: 7rem 3rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: hsla(172, 50%, 17%, 0.8);
+}
+
+.about-para {
+  text-align: left;
+  font-size: 1.25rem;
+}
+.home-subhead {
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--lighttheme);
+  color: white;
+}
+
+#read-more {
+  background-color: #16423c;
+}
