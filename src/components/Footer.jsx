@@ -18,13 +18,13 @@ function Footer() {
             <NavLink className="footer-link" to="/collaborations">Collaborations</NavLink>
             <NavLink className="footer-link" to="/contact">Contact</NavLink>
         </div>
-        <div className='newsletter-join footer-section'>
+        {/* <div className='newsletter-join footer-section'>
           <a href="">
             <span>
             Stay Updated on All Our Activities, Click Here Join Our Newsletter Now!
             </span>
           </a>
-        </div>
+        </div> */}
         <div className='rights footer-section'>
           <h4>
           ©2024 SEEF | 
