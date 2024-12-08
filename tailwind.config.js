@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcssTextshadow from 'tailwindcss-textshadow'
 
 const scrollbar = require("tailwind-scrollbar")
 export default {
@@ -20,10 +21,14 @@ export default {
         'neutralgreen': '#c4dad2',
         'neutral': '#E9EFEC',
       },
+      textShadow: {
+        white: '3px 3px 0px rgba(255, 255, 255, 0.5)',
+      },
     },
   },
   plugins: [
     scrollbar,
+    tailwindcssTextshadow
   ],
 }
 

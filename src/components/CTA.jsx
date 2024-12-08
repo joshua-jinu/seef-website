@@ -3,11 +3,11 @@ import image2 from '../assets/image2.png'
 
 function CTA() {
   return (
-    <section className='bg-darkgreen flex flex-row p-5 font-extrabold'>
-        <div className='w-1/2 flex justify-center items-center'>
-            <img src={image2} alt="" className='w-3/4'/>
+    <section className='bg-darkgreen flex flex-col lg:flex-row p-5 font-extrabold'>
+        <div className='lg:w-1/2 flex justify-center items-center'>
+            <img src={image2} alt="" className='lg:w-3/4'/>
         </div>
-        <div className='w-1/2 flex justify-center items-center flex-col text-lg leading-9 p-6'>
+        <div className='lg:w-1/2 flex justify-center items-center flex-col text-lg leading-9 p-6'>
             <br />
             <h1 className='text-3xl'>Call to Action</h1>
             <br />

@@ -5,11 +5,11 @@ import '../styles/home.css'
 function HomeAbout() {
   return (
     <section className='about-components'>
-        <div className='about-overlay'>
+        <div className='about-overlay max-w-full flex flex-col md:flex-row text-center'>
             <div className='left'>
                 <h2 className='home-subhead'>Overview</h2>
                 <br />
-                <p className='about-para text-neutral'>
+                <p className='about-para text-neutral md:px-[5rem] md:py-[1rem]'>
                     Sustainable Environment Educational
                     Foundation (SEEF) was established in 2022
                     by alumni of St. Joseph's Boys' High School
@@ -23,7 +23,7 @@ function HomeAbout() {
             </div>
             <div className='right'>
                 <br />
-                <p className='about-para text-neutral'>
+                <p className='about-para text-neutral md:px-[5rem] md:py-[1rem]'>
                     As SEEF continues to evolve, we remain
                     committed to its core mission of
                     empowering youth and fostering
@@ -37,6 +37,7 @@ function HomeAbout() {
                     partnerships, SEEF is dedicated to building
                     a more sustainable and equitable future. 
                 </p>
+                <br />
                 <Link to='/about' className='py-3 px-6 rounded-3xl text-darkgreen bg-neutral hover:text-lightgreen hover:bg-darkgreen duration-300'>
                         <span className='text-lg font-bold'>About Us</span>
                 </Link>
