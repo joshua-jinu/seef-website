@@ -16,7 +16,7 @@ function NavBar() {
     { title: "About", link: "/about" },
     { title: "Projects", link: "/projects" },
     { title: "Testimonials", link: "/testimonials" },
-    { title: "Updates", link: "/updates" },
+    // { title: "Updates", link: "/updates" },
     { title: "Collaborations", link: "/collaborations" },
     { title: "Contact", link: "/contact" },
   ];

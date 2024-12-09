@@ -14,7 +14,7 @@ function Footer() {
             <NavLink className="footer-link" to="/about">About</NavLink>
             <NavLink className="footer-link" to="/projects">Projects</NavLink>
             <NavLink className="footer-link" to="/testimonials">Testimonials</NavLink>
-            <NavLink className="footer-link" to="/updates">Updates</NavLink>
+            {/* <NavLink className="footer-link" to="/updates">Updates</NavLink> */}
             <NavLink className="footer-link" to="/collaborations">Collaborations</NavLink>
             <NavLink className="footer-link" to="/contact">Contact</NavLink>
         </div>

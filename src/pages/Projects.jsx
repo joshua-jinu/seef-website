@@ -168,18 +168,18 @@ solutions that can benefit both people and the planet.`,
 
 function Projects() {
   return (
-    <div className='text-black mt-20  md:mx-10 lg:mx-20'>
+    <div className='text-black mt-20 w-full'>
 
-      <div>
+      <div className='w-full'>
         {/* COMPLETED PROJECTS */}
-        <div className='bg-neutralgreen p-4 mb-10' >
+        <div className='bg-neutralgreen w-full p-4 pt-20 mb-10' >
           <p className=' font-bold text-gray-900 sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
             Completed Projects
           </p>
           {data.map((ele) => (
             <div>
 
-              <div className="mb-10 ml-20 mr-20 bg-lightgreen p-5 rounded-2xl">
+              <div className="mb-10 ml-8 mr-8 bg-lightgreen p-5 rounded-2xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
 
                   <div className="flex items-center justify-center">
