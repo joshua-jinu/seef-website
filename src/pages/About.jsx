@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import backgroundImage from '../assets/illustration.jpg'; // Import the image
 
 function About() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div className="bg-darkgreen mt-20">
       {/* Header Section */}

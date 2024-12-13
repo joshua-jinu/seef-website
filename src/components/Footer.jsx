@@ -18,20 +18,18 @@ function Footer() {
             <NavLink className="footer-link" to="/collaborations">Collaborations</NavLink>
             <NavLink className="footer-link" to="/contact">Contact</NavLink>
         </div>
-        {/* <div className='newsletter-join footer-section'>
-          <a href="">
+        <div className='newsletter-join footer-section text-white'>
+          <i>
             <span>
-            Stay Updated on All Our Activities, Click Here Join Our Newsletter Now!
+            Website Developed by Joshua Jinu | David Jijo | Roshan Pramod
+            <br />
+            Pratheek Ravikumar | Anbar Althaf
             </span>
-          </a>
-        </div> */}
+          </i>
+        </div>
         <div className='rights footer-section'>
           <h4>
-          ©2024 SEEF | 
-          <a href="https://sjbhsoba.net/" style={{color:"white", textDecoration:"none"}}>
-          SJBHS OBA
-          </a>
-           | All Rights Reserved
+          ©2024 SEEF Foundation | All Rights Reserved
           </h4>
         </div>
     </footer>

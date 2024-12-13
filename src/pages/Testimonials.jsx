@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {HoverEffect} from './../components/CardHover'
 
 function Testimonials() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
     <div className='bg-neutralgreen mt-20'>
-      <div className='w-screen h-[300px] bg-lightgreen flex items-center justify-center px-2 z-[500 ]'>
-        <span className='lg:text-7xl text-[45px] md:text-6xl  font-bold'>TESTIMONIALS</span>
+      {/* Header Section */}
+      <div className="w-screen h-[200px] bg-lightgreen flex items-center justify-center px-2">
+        <span className="lg:text-7xl text-[45px] md:text-6xl font-bold text-white font-palatino">
+          Testimonials
+        </span>
       </div>
       <div className='flex justify-center'>
         <div className='lg:w-3/4  md:w-[80%] w-[90%] '>

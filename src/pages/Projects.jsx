@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Project from "../components/Project"
 
 
@@ -167,13 +167,26 @@ solutions that can benefit both people and the planet.`,
 ]
 
 function Projects() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
-    <div className='text-black mt-20 w-full'>
+    <div className='text-black mt-20 w-full bg-darkgreen'>
+
+      {/* Header Section */}
+      <div className="w-screen h-[200px] bg-lightgreen flex items-center justify-center px-2">
+        <span className="lg:text-7xl text-[45px] md:text-6xl font-bold text-white font-palatino">
+          Projects
+        </span>
+      </div>
 
       <div className='w-full'>
         {/* COMPLETED PROJECTS */}
-        <div className='bg-neutralgreen w-full p-4 pt-20 mb-10' >
-          <p className=' font-bold text-gray-900 sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
+        <div className='bg-neutralgreen w-full p-4 py-16 mb-10' >
+          <p className=' font-bold text-darkgreen sm:truncate p-8 text-4xl md:text-4xl sm:tracking-tight mb-5'>
             Completed Projects
           </p>
           {data.map((ele) => (
@@ -183,7 +196,7 @@ function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
 
                   <div className="flex items-center justify-center">
-                    <h2 className="text-2xl font-bold text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+                    <h2 className="text-2xl font-bold text-darkgreen sm:truncate sm:text-3xl sm:tracking-tight">
                       {ele.ProjectName}
                     </h2>
                   </div>
@@ -207,8 +220,8 @@ function Projects() {
 
 
         {/* CURRENT PROJECTS */}
-        <div className='bg-neutralgreen p-4 mb-10' >
-          <p className=' font-bold text-gray-900 sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
+        <div className='bg-neutralgreen p-4 py-16 mb-10' >
+          <p className=' font-bold text-darkgreen p-8 sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
             Current Projects
           </p>
           {CurrentProjects.map((ele) => (
@@ -218,7 +231,7 @@ function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
 
                   <div className="flex items-center justify-center">
-                    <h2 className="text-2xl font-bold text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+                    <h2 className="text-2xl font-bold text-darkgreen sm:truncate sm:text-3xl sm:tracking-tight">
                       {ele.ProjectName}
                     </h2>
                   </div>
@@ -241,8 +254,8 @@ function Projects() {
         </div>
 
         {/* FUTURE PROJECTS */}
-        <div className='bg-neutralgreen p-4 mb-10' >
-          <p className=' font-bold text-gray-900 sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
+        <div className='bg-neutralgreen p-4 py-16 mb-10' >
+          <p className=' font-bold p-8 text-darkgreen sm:truncate text-4xl md:text-4xl sm:tracking-tight mb-5'>
             Future Projects
           </p>
           {FutureProjects.map((ele) => (

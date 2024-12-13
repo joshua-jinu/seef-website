@@ -1,6 +1,15 @@
-import React from 'react';
+import collab1 from '../assets/collaborations1.jpg'
+import collab2 from '../assets/collaborations2.jpg'
+import collab3 from '../assets/collaborations3.jpg'
+import { useEffect } from 'react'
 
 function Collaborations() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
     <div className="bg-darkgreen mt-20">
       <div className="w-screen h-[300px] bg-lightgreen flex items-center justify-center px-2 z-[500]">
@@ -13,7 +22,7 @@ function Collaborations() {
           {/* Mobile Layout */}
           <div className="w-full lg:hidden flex flex-col justify-center items-center">
             <img
-              src="src/assets/collaborations1.jpg"
+              src={collab1}
               alt="Collaboration 1"
               className="rounded-lg shadow-lg align-middle w-4/5 object-cover mb-4"
             />
@@ -24,7 +33,7 @@ function Collaborations() {
             </p>
             
             <img
-              src="src/assets/collaborations2.jpg"
+              src={collab2}
               alt="Collaboration 2"
               className="rounded-lg shadow-lg  w-4/5 object-cover mb-4"
             />
@@ -40,7 +49,7 @@ function Collaborations() {
             </p>
             
             <img
-              src="src/assets/collaborations3.jpg"
+              src={collab3}
               alt="Collaboration 3"
               className="rounded-lg shadow-lg  w-4/5 object-cover mb-4"
             />
@@ -108,17 +117,17 @@ function Collaborations() {
             </div>
             <div className="lg:w-1/2 flex flex-col items-center">
               <img
-                src="src/assets/collaborations1.jpg"
+                src={collab1}
                 alt="Collaboration 1"
                 className="rounded-lg shadow-lg w-full h-[300px] object-cover mb-4"
               />
               <img
-                src="src/assets/collaborations2.jpg"
+                src={collab2}
                 alt="Collaboration 2"
                 className="rounded-lg shadow-lg w-full h-[300px] object-cover mb-4"
               />
               <img
-                src="src/assets/collaborations3.jpg"
+                src={collab3}
                 alt="Collaboration 3"
                 className="rounded-lg shadow-lg w-full h-[300px] object-cover mb-4"
               />

@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from '../assets/image1.jpg'
+import { NavLink } from 'react-router-dom'
 
 function Project() {
     return (
@@ -7,7 +8,7 @@ function Project() {
             <div>
                 <h1 className='text-darkgreen p-4 text-4xl font-extrabold'>
                     OUR PROJECTS
-                </h1>
+                </h1>   
                 <div id='projects' className='flex font-extrabold flex-col md:flex-row p-9 md:px-[10%] leading-8 justify-around items-center'>
                     <div id='left'>
                         <h1 className='text-3xl pb-4 text-darkgreen'>Past Projects</h1>
@@ -42,9 +43,9 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <NavLink to='./projects'>
                     <button className='std-btn bg-darkgreen text-white rounded-full px-9'>Learn More</button>
-                </div>
+                </NavLink>
             </div>
 
             <div className='future-projects text-darkgreen font-extrabold flex flex-col md:flex-row justify-around w-full p-8'>

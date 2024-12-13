@@ -43,11 +43,9 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <NavLink to="/projects">
-                        <button className='std-btn bg-lightgreen text-white rounded-full px-9'>Learn More</button>
-                    </NavLink>
-                </div>
+                <NavLink to='/projects' className='std-btn bg-lightgreen text-white rounded-full px-9'>
+                Learn More
+                </NavLink>
             </div>
 
             <div className='future-projects text-darkgreen font-extrabold flex flex-col justify-center items-center lg:flex-row lg:justify-around w-full lg:p-14'>
