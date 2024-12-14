@@ -1,8 +1,3 @@
-# React + Vite
+# SEEF Foundation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sustainable Environment Educational Foundation (SEEF) was established in 2022 by alumni of St. Joseph's Boys' High School (SJBHS) who had a vision to empower today's youth to lead the way toward a better and more sustainable future. SEEF’s initial work revolved around developing and implementing farm-based projects at a model farm on the outskirts of Bangalore.
